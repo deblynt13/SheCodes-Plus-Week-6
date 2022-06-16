@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"/>
+    
+    <script src="https://kit.fontawesome.com/b0b2af2ae3.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel = "stylesheet" href = src/styles.css />
+  </head>
+
+  <body>
+    <img src= "images/sunrise.png" alt= "sunrise photo" width=500 >
+    <div class = "container">
+              
+
+ 
+      <div class = "card" style= "width: 18em;">
+        <div class = "card-body">
+          <h3 class = "card-title"> Sat </h3>
+             <div class = "row">
+               <div class = "col">
+                  <p class = "text temp"> 85° 
+                    <i class="fa-solid fa-sun sun-icon"></i>
+                  </p>
+                  <p class = "text other-weather">Precip. 15% Humid. 50%
+               </div>   
+             </div> 
+        </div>      
+      </div>
+      <div class = "card" style="width: 18em;">
+        <div class = "card-body sun-card">
+          <h3 class = "card-title"> Sun </h3>
+             <div class = "row">
+               <div class = "col">
+                 <p class = "text temp"> 87°
+                    <i class="fa-solid fa-sun sun-icon"></i>
+                 </p> 
+                 <p class=" text other-weather">Precip. 50% Humid. 52% </p>
+               </div>
+             </div> 
+        </div>   
+      </div>  
+      <div class = "card" style="width: 18em;">
+        <div class = "card-body">
+          <h3 class = "card-title"> Mon </h3>
+             <div class = "row">
+               <div class="col">
+                 <p class = "text temp"> 88° 
+                    <i class="fa-solid fa-cloud-sun cloud-sun-icon"></i>
+                    <p class = "text other-weather">Precip.25% Humid. 60%
+                   </p>
+               </div>
+             </div>
+        </div> 
+      </div>      
+
+      <div id = "currentTemp">
+        <h1
+          id="city">
+          
+        </h1>
+        <h1
+          id="temperature">
+        </h1>  
+
+        <h2 id="date"></h2>
+        <h2>Current Temp</h2>
+        <h3>Sunny</h3>
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-sunglasses sunglass-icon"></i>
+        
+        <h4>H 85°  L 70°</h4>
+      </div>    
+
+      
+        <div class = "container">
+          <div class = "weather-app">
+            <form class="search-form" id="search-form">
+              <div class = "row">
+                <div class = "col-9">
+                  <input 
+                     type = "search"
+                      placeholder="search city"
+                      autofocus="on"
+                      autocomplete="off"
+                      id="city-input"
+                      class = form-control shadow.sm
+                      />
+         </div>  
+         <div class = "col-3">
+           <input
+           type="submit"
+           value="search"
+           class"form-control btn btn-primary shadow-sm/>  
+           <button id="current-location-button">
+             Current
+           </button>            
+      </form>  
+    
+      <div class="card" >
+        <div class="card-body">
+          <h3 class="card-title">Today's Weather</h3>
+             <div class = "row">
+              <div class = "col">
+                <h4 class = "text">Sunny 85°</h4 >
+              </div>
+              <div class = "row">
+                 <p class ="text"> Chance of Percipitation 0%  Hummidity<span id="humidity"> 50%</span>
+                </p>
+                 <i class="fa-solid fa-umbrella-beach umbrella-icon"></i>
+              </div>
+             </div>
+          </div>
+        <div>  
+     </div> 
+             
+             
+           
+    
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
