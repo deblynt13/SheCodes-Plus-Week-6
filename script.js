@@ -23,16 +23,23 @@ function formatDate(date) {
 }
 
 function displayWeatherCondition(response) {
-  document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#formatDate").innerHTML(response.data.dt * 1000);
-  document.querySelector("#temperature").innerHTML = Math.round(
+  let city = document.querySelector("#city");
+  let date = document.querySelector("#formatDate");
+  let temperature = document.querySelector("#temperature");
+  let description = document.querySelector("#description");
+  let humidity = document.querySelector("#humidity").innerHTML = response.data.main.humidity;
+  
+  city.innerHTML = response.data.name;
+  date.innerHTML(response.data.dt * 1000);
+  temperature..innerHTML = Math.round(
     response.data.main.temp
   );
-  document.querySelector("#description").innerHTML =
+  description.innerHTML =
     response.data.weather[0].description;
+    humidity.innerHTML = response.data.main.humidity;
+    
 
-  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
-  
+
 }
 
 function searchCity(city) {
