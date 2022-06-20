@@ -27,6 +27,8 @@ function displayWeatherCondition(response) {
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
   );
+  document.querySelector("#description").innerHTML =
+    response.data.weather[0].description;
 
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
 }
