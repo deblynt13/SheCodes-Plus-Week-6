@@ -23,23 +23,18 @@ function formatDate(date) {
 }
 
 function displayWeatherCondition(response) {
-  let city = document.querySelector("#city");
-  let date = document.querySelector("#formatDate");
-  let temperature = document.querySelector("#temperature");
-  let description = document.querySelector("#description");
-  let humidity = document.querySelector("#humidity").innerHTML = response.data.main.humidity;
-  
-  city.innerHTML = response.data.name;
-  date.innerHTML(response.data.dt * 1000);
-  temperature..innerHTML = Math.round(
-    response.data.main.temp
-  );
-  description.innerHTML =
-    response.data.weather[0].description;
-    humidity.innerHTML = response.data.main.humidity;
-    
+  let cityElement = document.querySelector("#city");
+  let dateElement = document.querySelector("#formatDate");
+  let temperatureElement = document.querySelector("#temperature");
+  let descriptionElement = document.querySelector("#description");
+  let humidityElement = (document.querySelector("#humidity").innerHTML =
+    response.data.main.humidity);
 
-
+  cityElement.innerHTML = response.data.name;
+  dateElement.innerHTML(response.data.dt * 1000);
+  temperatureElement.innerHTML = Math.round(response.data.main.temp);
+  descriptionElement.innerHTML = response.data.weather[0].description;
+  humidityElement.innerHTML = response.data.main.humidity;
 }
 
 function searchCity(city) {
