@@ -34,8 +34,7 @@ function displayWeatherCondition(response) {
   dateElement.innerHTML(response.data.dt * 1000);
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
   descriptionElement.innerHTML = response.data.weather[0].description;
-  humidityElement
-  .innerHTML = response.data.main.humidity;
+  humidityElement.innerHTML = response.data.main.humidity;
 }
 
 function searchCity(city) {
@@ -51,6 +50,19 @@ function handleSubmit(event) {
   let city = document.querySelector("#city-input").value;
   searchCity(city);
 }
+
+function displayFahrenheitTemperature(event) {
+  let temperatureElement = document.querySelector("#temperature");
+  let fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
+}
+
+function displayCelsiusTemperature(even) {
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
+}
+
+let celsiusTemperature = null;
 
 function searchLocation(position) {
   let apiKey = "2abcdcc61962b2b7f2b8e768d3b810e8";
