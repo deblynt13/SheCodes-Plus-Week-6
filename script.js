@@ -34,7 +34,8 @@ function displayWeatherCondition(response) {
   dateElement.innerHTML(response.data.dt * 1000);
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
   descriptionElement.innerHTML = response.data.weather[0].description;
-  humidityElement.innerHTML = response.data.main.humidity;
+  humidityElement
+  .innerHTML = response.data.main.humidity;
 }
 
 function searchCity(city) {
