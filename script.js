@@ -47,8 +47,8 @@ q=${city}&appid=${apiKey}&units=metric`;
 
 function handleSubmit(event) {
   event.preventDefault();
-  let city = document.querySelector("#city-input").value;
-  searchCity(city);
+  let city = document.querySelector("#city-input");
+  searchCity(city.value);
 }
 
 function displayFahrenheitTemperature(event) {
