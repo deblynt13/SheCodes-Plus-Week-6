@@ -23,19 +23,25 @@ function formatDate(timestamp) {
   return `${day} ${hours} :${minutes}`;
 }
 
-function displayWeatherCondition(response) {
+function displayTemperature(response) {
   let cityElement = document.querySelector("#city");
   let dateElement = document.querySelector("#formatDate");
   let temperatureElement = document.querySelector("#temperature");
   let descriptionElement = document.querySelector("#description");
   let humidityElement = (document.querySelector("#humidity").innerHTML =
     response.data.main.humidity);
+  let windElement = document.querySelector("#wind");
+  let iconElement = document.querySelector("#icon");  
+
+  celsiusTemperature = response.data.main.temp;
 
   cityElement.innerHTML = response.data.name;
   dateElement.innerHTML(response.data.dt * 1000);
   temperatureElement.innerHTML = Math.round(response.data.main.temp);
   descriptionElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
+  windElement.innerHTML = Math.round(response.date.wind.speed);
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function searchCity(city) {
