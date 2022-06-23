@@ -1,5 +1,5 @@
 function formatDate(timestamp) {
-    let date = new Date(timestamp);
+  let date = new Date(timestamp);
   let hours = date.getHours();
   if (hours < 10) {
     hours = `0${hours}`;
@@ -25,13 +25,12 @@ function formatDate(timestamp) {
 
 function displayTemperature(response) {
   let cityElement = document.querySelector("#city");
-  let dateElement = document.querySelector("#formatDate");
+  let dateElement = document.querySelector("#date");
   let temperatureElement = document.querySelector("#temperature");
   let descriptionElement = document.querySelector("#description");
-  let humidityElement = (document.querySelector("#humidity").innerHTML =
-    response.data.main.humidity);
-  let windElement = document.querySelector("#wind");
-  let iconElement = document.querySelector("#icon");  
+  let humidityElement = (document.querySelector("#humidity");
+  let windElement = document.querySelector("#windSpeed");
+  //let iconElement = document.querySelector("#icon");  
 
   celsiusTemperature = response.data.main.temp;
 
