@@ -35,21 +35,20 @@ function displayTemperature(response) {
   celsiusTemperature = response.data.main.temp;
 
   cityElement.innerHTML = response.data.name;
-  dateElement.innerHTML(response.data.dt * 1000);
+  dateElement.innerHTML=formatDate(response.data.dt * 1000);
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
   descriptionElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
-  iconElement.setAttribute(
-      "src",
-      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-  );
+ // iconElement.setAttribute(
+      //"src",
+     // `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+ // );
 
-  iconElement.setAttribute("alt",response.data.weather[0].
-  description);
+ // iconElement.setAttribute("alt",response.data.weather[0].
+ // description);
 }   
     
-
 function searchCity(city) {
   let apiKey = "2abcdcc61962b2b7f2b8e768d3b810e8";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?
