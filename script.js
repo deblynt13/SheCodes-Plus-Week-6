@@ -88,7 +88,7 @@ function searchLocation(position) {
   &Lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&uni
   ts=$=metric`;
 
-  axios.get(apiUrl).then(displayWeatherCondition);
+  axios.get(apiUrl).then(displayTemperature);
 }
 
 function getCurrentLocation(event) {
@@ -109,7 +109,7 @@ fahrenheitLink.addEventListener("click" displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click" displayCelsiusTemperature);
 
-let currentLocationButton = document.querySelector("#current-location-button");
-currentLocationButton.addEventListener("click", getCurrentLocation);
+//let currentLocationButton = document.querySelector("#current-location-button");
+//currentLocationButton.addEventListener("click", getCurrentLocation);
 
 searchCity("Coventry");
