@@ -21,11 +21,10 @@ h4 {
   text-align: center;
   color: black;
 }
-.searchengine {
+.search-form {
   text-align: center;
   border: 10px purple;
   padding: 10px;
-  
 }
 .currentweather {
   padding-bottom: 10px;
