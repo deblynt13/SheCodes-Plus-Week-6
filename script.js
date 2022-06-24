@@ -108,6 +108,8 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
+let city = "Orlando";
+
 let apiUrl = `https://openweathermap.org/data/2.5/weather?q=${city}&appid=$
 {apiKey}&units=metric`;
 
