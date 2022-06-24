@@ -105,3 +105,6 @@ body {
   margin: 10px;
   background-image: pink;
 }
+.units {
+  float: right;
+}
