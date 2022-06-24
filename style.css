@@ -20,6 +20,7 @@ h4 {
   font-size: 20x;
   text-align: center;
   color: black;
+  float: right;
 }
 .search-form {
   text-align: center;
