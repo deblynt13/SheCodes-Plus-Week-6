@@ -108,7 +108,10 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
+let apiUrl = `https://openweathermap.org/data/2.5/weather?q=${city}&appid=$
+{apiKey}&units=metric`;
+
 //let currentLocationButton = document.querySelector("#current-location-button");
-//currentLocationButton.addEventListener("click", getCurrentLocation);
+//currentLocationB =button.addEventListener("click", getCurrentLocation);
 
 searchCity("Coventry");
