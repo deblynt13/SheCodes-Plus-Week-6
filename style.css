@@ -115,3 +115,7 @@ body {
 #celcius-link #fahrenheit-link {
   text-decoration: none;
 }
+
+#icon {
+  position: absolute;
+}
