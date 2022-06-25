@@ -108,3 +108,6 @@ body {
 .units {
   float: right;
 }
+.card {
+  border: 10px black;
+}
