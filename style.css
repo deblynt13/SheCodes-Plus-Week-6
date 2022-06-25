@@ -106,7 +106,8 @@ body {
   background-color: pink;
 }
 .units {
-  float: right;
+  float: left;
+  font-size: 10px;
 }
 .container.card {
   border: 10px black;
