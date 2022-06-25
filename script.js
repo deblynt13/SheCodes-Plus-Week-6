@@ -47,13 +47,7 @@ function displayTemperature(response) {
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
-  // iconElement.setAttribute(
-  //"src",
-  // `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
-  // );
-
-  // iconElement.setAttribute("alt",response.data.weather[0].
-  // description);
+  
 }
 
 function searchCity(city) {
@@ -71,6 +65,7 @@ function handleSubmit(event) {
 }
 
 function displayFahrenheitTemperature(event) {
+  event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
   celsiusLink.classList.remove("active");
   fahrenheitLink.classList.add("active");

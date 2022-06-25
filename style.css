@@ -112,3 +112,6 @@ body {
 .container.card {
   border: 10px black;
 }
+#temperature .units {
+  text-decoration: none;
+}
