@@ -105,7 +105,7 @@ body {
   margin: 10px;
   background-color: pink;
 }
-.units #temperature #celsius-link #fahrenheit-link h1 {
+.units #celsius-link #fahrenheit-link h1 {
   margin: 50px;
   font-size: 5px;
   text-decoration: none;
