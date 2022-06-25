@@ -107,7 +107,7 @@ body {
 }
 .units #celsius-link #fahrenheit-link {
   margin: 50px;
-  font-size: 10px;
+  font-size: 5px;
 }
 .container.card {
   border: 10px black;
