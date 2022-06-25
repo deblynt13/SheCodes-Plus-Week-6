@@ -112,6 +112,6 @@ body {
 .container.card {
   border: 10px black;
 }
-#temperature .units {
+#celcius-link #fahrenheit-link {
   text-decoration: none;
 }
