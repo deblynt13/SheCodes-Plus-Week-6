@@ -108,7 +108,7 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
-//let currentLocationButton = document.querySelector("#current-location-button");
+0//let currentLocationButton = document.querySelector("#current-location-button");
 //currentLocationB =button.addEventListener("click", getCurrentLocation);
 
 searchCity("Coventry");
