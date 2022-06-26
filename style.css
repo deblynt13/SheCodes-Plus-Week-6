@@ -110,5 +110,6 @@ body {
 }
 
 #icon img {
-  font-size: 25px;
+  font-size: 35px;
+  float:right;
 }
