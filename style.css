@@ -103,7 +103,9 @@ img {
 body {
   width: 1000px;
   margin: 10px;
-  background-color: pink;
+  background-image: <img src=
+    "https://www.istockphoto.com/photo/view-from-dune-top-over-north-sea-gm1302442639-394181522"
+    alt = "width=500" / >;
 }
 .units #celsius-link #fahrenheit-link h1 {
   margin: 50px;
