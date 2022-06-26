@@ -82,12 +82,7 @@ h4 {
 h2 {
   text-align: center;
 }
-img {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-  height: 540px;
-  border: 10px round;
+
 }
 .umbrella-icon {
   font-size: 65px;
@@ -103,9 +98,7 @@ img {
 body {
   width: 1000px;
   margin: 10px;
-  background-image: <img src=
-    "https://www.istockphoto.com/photo/view-from-dune-top-over-north-sea-gm1302442639-394181522"
-    alt = "width=500" / >;
+  background-image:"https://www.istockphoto.com/photo/view-from-dune-top-over-north-sea-gm1302442639-394181522";
 }
 .units #celsius-link #fahrenheit-link h1 {
   margin: 50px;
