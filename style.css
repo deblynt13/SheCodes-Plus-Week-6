@@ -114,3 +114,6 @@ body {
   margin-right: 50px;
   position: relative;
 }
+#description {
+  font-size: 15px;
+}
