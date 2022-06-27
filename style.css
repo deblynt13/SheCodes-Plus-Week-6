@@ -84,12 +84,11 @@ h2 {
   text-align: center;
 }
 
-}
 .umbrella-icon {
   font-size: 65px;
   color: rgb(94, 37, 146);
 }
-.sunglass-icon,
+
 .currenttemp {
   font-size: 30px;
   color: orange;
@@ -100,7 +99,6 @@ body {
   width: 1000px;
   margin: 10px;
   background-image: "C:\Users\debly\Downloads\derick-mckinney-Kx18sLU6c7E-unsplash.jpg";
-
 }
 .units #celsius-link #fahrenheit-link h1 {
   margin: 50px;
@@ -113,7 +111,5 @@ body {
 
 #icon img {
   font-size: 35px;
-  margin:50px;
-
-
+  margin: 50px;
 }
