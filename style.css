@@ -111,8 +111,7 @@ body {
 
 #icon {
   font-size: 35px;
-  margin-right: 50px;
-  position: relative;
+  text-align: center;
 }
 #description {
   font-size: 75px;
