@@ -109,7 +109,7 @@ body {
   border: 10px black;
 }
 
-#icon img {
+#icon {
   font-size: 35px;
   margin-right: 50px;
   position: relative;
