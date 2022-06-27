@@ -116,6 +116,6 @@ body {
 #description {
   font-size: 35px;
 }
-span.units #celsius-link #fahrenheit {
+href.units #celsius-link #fahrenheit {
   font-size: 20px;
 }
