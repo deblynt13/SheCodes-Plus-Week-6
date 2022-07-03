@@ -23,6 +23,20 @@ function formatDate(timestamp) {
   return `${day} ${hours} :${minutes}`;
 }
 
+function displayForecast(){
+   let forecastElement = document.querySelector("#forecast");
+
+   forecastElement.innerHTML = "";
+   <div class row = "row">
+       <div class = "col-2">
+           <div class = "weather-forecast-date">Mon</div>
+       </div>
+   </div>
+
+
+}
+
+
 function displayTemperature(response) {
   let cityElement = document.querySelector("#city");
   let dateElement = document.querySelector("#date");
@@ -111,3 +125,5 @@ celsiusLink.addEventListener("click", displayCelsiusTemperature);
 //currentLocationB =button.addEventListener("click", getCurrentLocation);
 
 searchCity("Coventry");
+
+displayForecast();
