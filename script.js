@@ -34,7 +34,7 @@ function displayForecast(){
    }
    <div class row = "row">
        <div class = "col-2">
-           <div class = "weather-forecast-date">Mon</div>
+           <div class = "weather-forecast-date">${day}</div>
        </div>
    </div>
 
