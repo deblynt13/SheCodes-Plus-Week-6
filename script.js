@@ -40,7 +40,11 @@ function displayForecast(){
              alt=""
              width="42"
            />   
-   </div>
+           <div class = "weather-forecast-temperatures">
+             <span class = "weather-forecast-temperature-max"> 18 </
+             span>
+             <span class = "weather-foreceast-temperature-min"> 12 </
+             span>
 
 
 }
