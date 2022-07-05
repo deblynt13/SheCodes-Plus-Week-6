@@ -30,7 +30,7 @@ function displayForecast() {
   let days = ["Sat", "Sun", "Mon"];
 
   let forecastHTML = `<div class= "row">`;
-  days.forEach(function (day) {
+  days.forEach(function (forecastDay) {
     forecastHTML =
       forecastHTML +
       `
