@@ -40,7 +40,6 @@ function displayForecast(){
              alt=""
              width="42"
            />   
-       </div>
    </div>
 
 
