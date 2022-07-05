@@ -32,7 +32,7 @@ function displayForecast(){
        forecastHTML =
           forecastHTML +
           `
-   <div class row = "row">
+   
        <div class = "col-2">
            <div class = "weather-forecast-date">${day}</div>
            <img
