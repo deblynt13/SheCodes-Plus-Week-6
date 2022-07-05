@@ -56,6 +56,7 @@ function displayForecast() {
 }
 
 function getForecast(coordinates) {
+  console.log(coordinates);
   let apiKey = "2abcdcc61962b2b7f2b8e768d3b810e8";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?
 lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units= metric`;
