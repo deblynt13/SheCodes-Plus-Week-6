@@ -43,16 +43,24 @@ function displayForecast(response) {
       forecastHTML +
       `
        <div class = "col-2">
-           <div class = "weather-forecast-date">${formatDay.dt}</div>
+           <div class = "weather-forecast-date">${
+             formatDay(forecastDay).dt
+           }</div>
            <img
-             src = "https://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png"
+             src = "https://openweathermap.org/img/wn/${
+               forecastDay.weather[0].icon
+             }@2x.png"
              alt=""
              width="42"
            />   
            <div class = "weather-forecast-temperatures">
-             <span class = "weather-forecast-temperature-max"> ${forecastDay.temp.max} 
+             <span class = "weather-forecast-temperature-max"> ${
+               forecastDay.temp.max
+             } 
              </span>
-             <span class = "weather-foreceast-temperature-min"> ${forecastDay.temp.min} </
+             <span class = "weather-foreceast-temperature-min"> ${
+               forecastDay.temp.min
+             } </
              span>
            </div>
        </div>
