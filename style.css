@@ -112,7 +112,7 @@ body {
 #icon {
   font-size: 35px;
   text-align: center;
-  float: inherit;
+  margin: 100px;
 }
 #description {
   font-size: 35px;
