@@ -43,6 +43,7 @@ function displayForecast(response) {
         forecastHTML +
         `
        <div class = "col-12">
+          <div class = "row">
            <div class = "weather-forecast-date">
              ${formatDay(forecastDay.dt)}</div>
            <img
