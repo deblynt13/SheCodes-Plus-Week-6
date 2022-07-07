@@ -122,6 +122,7 @@ href.units #celsius-link #fahrenheit {
 #humidity span {
   margin-left: 500px;
 }
-#search-form .container {
+
+.container {
   margin-bottom: 1000px;
 }
