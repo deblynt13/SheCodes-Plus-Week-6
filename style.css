@@ -122,3 +122,6 @@ href.units #celsius-link #fahrenheit {
 #humidity span {
   margin-left: 500px;
 }
+.weather-forecast #forecast {
+  text-align: center;
+}
