@@ -119,6 +119,5 @@ body {
 href.units #celsius-link #fahrenheit {
   font-size: 20px;
 }
-h3 #humidity {
-  margin-left: 700px;
+h3 span #humidity {
 }
