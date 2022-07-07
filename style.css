@@ -119,10 +119,6 @@ body {
 href.units #celsius-link #fahrenheit {
   font-size: 20px;
 }
-#forecast h3 span #description {
+#description {
   margin-left: 700px;
-}
-
-#windSpeed {
-  margin-left: ;
 }
