@@ -99,6 +99,7 @@ body {
   width: 1000px;
   margin: 10px;
   background-color: #9cd3d3;
+  border: solid rgb(94, 37, 146);
 }
 #celsius-link #fahrenheit-link h1 {
   margin: 50px;
