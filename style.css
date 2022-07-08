@@ -126,6 +126,6 @@ href.units #celsius-link #fahrenheit {
 .container #search-form .form-control btn div {
   margin-bottom: 500px;
 }
-.weather-forcast #forecast {
+.weather-forcast #forecast div {
   margin-top: 10px;
 }
