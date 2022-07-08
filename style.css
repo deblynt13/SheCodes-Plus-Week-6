@@ -127,7 +127,7 @@ href.units #celsius-link #fahrenheit {
 .container #search-form .form-control btn div {
   margin-bottom: 1000px;
 }
-.weather-forecast div col-2 {
+.weather-forecast div .col-2 {
   margin-left: 10px;
   padding: 10px;
   text-decoration: center;
