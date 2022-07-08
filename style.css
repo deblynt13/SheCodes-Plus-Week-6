@@ -123,6 +123,6 @@ href.units #celsius-link #fahrenheit {
   margin-left: 500px;
 }
 
-.container #search-form btn div {
+.container #search-form .form-control btn div {
   margin-bottom: 500px;
 }
