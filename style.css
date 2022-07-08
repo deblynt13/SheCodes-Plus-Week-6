@@ -128,6 +128,6 @@ href.units #celsius-link #fahrenheit {
   margin-bottom: 1000px;
 }
 .weather-forcast #forecast div {
-  margin-top: 10px;
+  margin-left: 10px;
   padding: 10px;
 }
