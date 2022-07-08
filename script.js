@@ -42,7 +42,7 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
-       <div class = "col-5">
+       <div class = "text-center">
           <div class = "row">
            <div class = "weather-forecast-date">
              ${formatDay(forecastDay.dt)}</div>
