@@ -124,7 +124,7 @@ href.units #celsius-link #fahrenheit {
   margin-left: 500px;
 }
 
-input .form-control .btn .btn-primary .shadow-sm #city-input .form-control {
+.btn #city-input {
   margin-bottom: 1000px;
 }
 .weather-forecast .col-2 {
